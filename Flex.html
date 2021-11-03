@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: DodgerBlue;
+}
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(206, 59, 174);
+}
+.flex-container2 {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: rgb(22, 212, 149);
+}
+.flex-containerA {
+  display: flex;
+flex-wrap: wrap;
+  background-color: rgb(109, 30, 255);
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container1 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-containerA > div {
+  background-color: #6d6a6a;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 33px;
+}
+</style>
+</head>
+<body>
+
+<h1>The flex-direction Property</h1>
+
+<p>The "flex-direction: column-reverse;" stacks the flex items vertically (but from bottom to top):</p>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+<h1>The flex-direction Property</h1>
+
+<p>The "flex-direction: row;" stacks the flex items horizontally (from left to right):</p>
+
+<div class="flex-container1">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+<h1>The flex-direction Property</h1>
+
+<p>The "flex-direction: row-reverse;" stacks the flex items vertically (but from bottom to top):</p>
+
+<div class="flex-container2">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+<h1>The flex-wrap Property</h1>
+
+<p>The "flex-wrap: wrap;" specifies that the flex items will wrap if necessary:</p>
+
+<div class="flex-containerA">
+  <div>A</div>
+  <div>B</div>
+  <div>C</div>  
+  <div>D</div>
+  <div>E</div>
+  <div>F</div>  
+  <div>G</div>
+  <div>H</div>
+  <div>I</div>  
+  <div>J</div>
+  <div>K</div>
+  <div>L</div>  
+</div>
+
+<p>Try resizing the browser window.</p>
+</body>
+</html>
