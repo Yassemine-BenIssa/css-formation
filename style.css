@@ -1,0 +1,22 @@
+body{
+    margin: auto;
+}
+header nav ul {
+    flex: 0 0 100px;
+    background-color: aquamarine;
+    color: beige;
+    margin: 0px 90px;
+    padding: 5px;
+    text-align: center;
+}
+main h1{
+    color: blueviolet;
+}
+aside{
+    background-color: cornflowerblue;
+}
+footer{
+    background-color: darkgoldenrod;
+    color: wheat;
+    padding: 0.25rem;
+}

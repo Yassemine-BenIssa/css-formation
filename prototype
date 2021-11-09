@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/flexboxgrid1.css">
     <style>
         body{
-            margin: 0px;
+            margin: 15px;
         }
         header nav ul  {
             display: flex;
@@ -16,7 +16,7 @@
         }
         header nav ul li{
             flex : 0 0 100px;
-            background-color: rgb(62, 86, 224);
+            background-color: rgb(42, 68, 218);
             color : rgb(255, 255, 255);
             margin: 0px 4px;
             padding: 3px;
